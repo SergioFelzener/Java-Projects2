@@ -5,7 +5,7 @@ public class DataTeste {
 	public static void main(String[] args) {
 		
 		Data data1 = new Data();
-		data1.ano = 1998;
+		//data1.ano = 1998;
 		//data1.dia = 12;
 		//data1.mes = 1;
 		
@@ -19,6 +19,8 @@ public class DataTeste {
 		String dataFormatada1 = data1.obterDataFormatada();
 		
 		String data = (data1.dia + "/" + data1.mes + "/" + data1.ano);
+		
+		System.out.println(data);
 		
 		System.out.println("Data 1 = " + dataFormatada1);
 		
