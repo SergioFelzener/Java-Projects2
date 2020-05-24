@@ -38,7 +38,7 @@ public class Decorator {
 
 		System.out.println("----------------");
 
-		System.out.println("----------------");
+		
 	}
 
 }
