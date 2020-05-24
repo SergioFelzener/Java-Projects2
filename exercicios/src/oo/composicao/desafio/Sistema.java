@@ -5,8 +5,8 @@ public class Sistema {
 	public static void main(String[] args) {
 		
 		Cliente c1 = new Cliente("Joao");
-		Cliente c2 = new Cliente("Maria");
-		Cliente c3 = new Cliente("Jaime");
+		//Cliente c2 = new Cliente("Maria");
+		//Cliente c3 = new Cliente("Jaime");
 	
 		
 		Compra compra1 = new Compra(c1.nome);
@@ -22,10 +22,6 @@ public class Sistema {
 		
 		
 		System.out.println(c1.getValorTotal());
-		
-		
-		
-		
 		
 		
 	}
