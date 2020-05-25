@@ -1,4 +1,4 @@
-package gamerpg;
+package gamerpg.combatentes;
 
 import java.util.Random;
 

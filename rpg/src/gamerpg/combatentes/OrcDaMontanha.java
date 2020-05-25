@@ -1,4 +1,4 @@
-package gamerpg;
+package gamerpg.combatentes;
 
 public class OrcDaMontanha extends Orc {
 	public OrcDaMontanha() {
