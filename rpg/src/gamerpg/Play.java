@@ -65,7 +65,7 @@ public class Play {
 
 		}
 		
-		System.out.printf("%s Selecione a carta para o combate", player1 );
+		System.out.printf("%s Selecione a carta para o combate\n", player1 );
 		
 		System.out.println(deck1.values());
 		
