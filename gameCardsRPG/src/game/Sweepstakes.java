@@ -30,7 +30,6 @@ public class Sweepstakes {
 		} else {
 			player = 2;
 		}
-
 		return player;
 	}
 

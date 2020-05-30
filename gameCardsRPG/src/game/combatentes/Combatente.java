@@ -13,13 +13,18 @@ public class Combatente {
 		this.power = power;
 	}
 
+	
+
 	public String getName() {
 		return name;
 	}
 
+	
 	public void setName(String name) {
 		this.name = name;
 	}
+
+
 
 	public int getLife() {
 		return life;

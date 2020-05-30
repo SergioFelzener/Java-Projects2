@@ -21,6 +21,7 @@ public class Play {
 		Player player1 = new Player(entrada.next());
 		System.out.print("Olá Player 2 - Digite seu nome : ");
 		Player player2 = new Player(entrada.next());
+		String player3 = entrada.next();
 		
 		System.out.println("-------------------------------\n");
 		System.out.println("************************");
@@ -43,6 +44,7 @@ public class Play {
 		
 	entrada.close();
 
+	
 		
 	}
 
