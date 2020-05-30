@@ -4,11 +4,20 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
+import aula14.ecommerce.Carrinho;
+
 class TestCarrinho {
 
 	@Test
-	void test() {
-		fail("Not yet implemented");
+	public void addProduct() {
+		
+		Carrinho carrinho = new Carrinho();
+		
+		carrinho.addProduct("Batata", 1, 500);
+		
+		assertTrue(carrinho.haveProduct("Batata"));
+		
+		
 	}
 
 }
